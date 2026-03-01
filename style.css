@@ -4,6 +4,15 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+.container{
+    width: 100%;
+    max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 16px;
+}
+body{
+    background-color: #f5eed8;
+}
 .header{
     text-align: center;
     padding: 40px 0;
@@ -48,6 +57,18 @@
   background: #eef3ee;
   cursor: pointer;
   font-size: 14px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.btn:hover{
+    background:#777;
+    box-shadow: 0 6px 15px rgba(241, 219, 16, 0.15);
+}
+.btn:active {
+    background: #5f4202;
+    color: #eef3ee;
+    border:1px solid #2d2d2d;
+    box-shadow: 0 3px 8px rgb(0, 0, 0,0.15);
 }
 
 .daniel-img .img{
@@ -72,13 +93,8 @@
   margin-bottom: 30px;
 }
 
-.skill-box {
-  border-top: 1px solid #ddd;
-  padding-top: 20px;
-}
-
-.skill-box h3 {
+.skills h3 {
   font-size: 18px;
   margin-bottom: 10px;
-  background : aquamarine;
+  color : rgb(118, 183, 243);
 }
