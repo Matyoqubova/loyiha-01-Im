@@ -49,3 +49,36 @@
   cursor: pointer;
   font-size: 14px;
 }
+
+.daniel-img .img{
+  width: 200px;
+  height: 200px;
+  background: #ffd54f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.daniel-img img {
+  width: 140px;
+}
+.skills {
+  padding: 60px 10%;
+}
+
+.skills h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.skill-box {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.skill-box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  background : aquamarine;
+}
