@@ -93,8 +93,18 @@ body{
   margin-bottom: 30px;
 }
 
-.skills h3 {
+
+.skil-box{
+     border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+.skil-box h3 {
   font-size: 18px;
   margin-bottom: 10px;
   color : rgb(118, 183, 243);
+}
+.skil-box p{
+     color: #777;
+  margin-bottom: 15px;
+   border-top: 1px solid #ddd;
 }
