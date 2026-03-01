@@ -97,27 +97,33 @@ body{
 .skills {
   padding: 60px 10%;
 }
+.skills h1{
+ font-weight: 600;
+ font-size: 30px;
+ margin-bottom: 25px;
+ color: #313030;
+}
 
 .skills h2 {
-  font-size: 28px;
-  margin-bottom: 30px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 
 .skills h3{
      border-top: 1px solid #ddd;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 .skills h3 {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   line-height: 1.6;
-  /* color : rgb(0, 0, 0); */
+  color : rgb(0, 0, 0);
 }
 .skills p{
      color: #777;
   margin-bottom: 15px;
    border-top: 1px solid #ddd;
-   line-height: px;
+ font-size: 18px;
   
 }
