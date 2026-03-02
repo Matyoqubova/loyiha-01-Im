@@ -24,7 +24,7 @@ body{
     }
  .Daniel{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     gap: 100px;
     padding: 60px 10%;
@@ -71,9 +71,9 @@ body{
 }
 .btn:active {
     background: #5f4202;
-    color: #eef3ee;
+    color: #ffffff;
     border:1px solid #2d2d2d;
-    box-shadow: 0 3px 8px rgb(0, 0, 0,0.15);
+    /* box-shadow: 0 3px 8px rgb(0, 0, 0,0.15); */
 }
 .chiziq{
     text-decoration: underline;
